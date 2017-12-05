@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="#eeeeeeee"
+    tools:context="com.techsajib.studentregistrationform.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:text="Student Registration Form" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:drawableStart="@drawable/ic_person_black_24dp"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:inputType="textPersonName"
+            android:hint=" Name" />
+
+        <EditText
+            android:id="@+id/fatherName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:drawableStart="@drawable/ic_people_black_24dp"
+            android:drawableLeft="@drawable/ic_people_black_24dp"
+            android:inputType="textPersonName"
+            android:hint=" Father Name" />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:drawableStart="@drawable/ic_location_on_black_24dp"
+            android:drawableLeft="@drawable/ic_location_on_black_24dp"
+            android:inputType="textPersonName"
+            android:hint=" Address" />
+
+        <EditText
+            android:id="@+id/instituteName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:drawableStart="@drawable/ic_school_black_24dp"
+            android:drawableLeft="@drawable/ic_school_black_24dp"
+            android:inputType="textPersonName"
+            android:hint=" Institute Name" />
+
+        <EditText
+            android:id="@+id/departmentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:drawableStart="@drawable/ic_work_black_24dp"
+            android:drawableLeft="@drawable/ic_work_black_24dp"
+            android:inputType="textPersonName"
+            android:hint=" Department Name" />
+
+        <EditText
+            android:id="@+id/Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:drawableStart="@drawable/ic_email_black_24dp"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:inputType="textPersonName"
+            android:hint=" Email" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:drawableStart="@drawable/ic_phone_black_24dp"
+            android:drawableLeft="@drawable/ic_phone_black_24dp"
+            android:inputType="textPersonName"
+            android:hint=" Phone" />
+
+        <EditText
+            android:id="@+id/bloodGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:drawableStart="@drawable/ic_accessibility_black_24dp"
+            android:drawableLeft="@drawable/ic_accessibility_black_24dp"
+            android:inputType="textPersonName"
+            android:hint=" Blood Group" />
+
+        <EditText
+            android:id="@+id/complainBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:drawableStart="@drawable/ic_announcement_black_24dp"
+            android:drawableLeft="@drawable/ic_announcement_black_24dp"
+            android:inputType="textPersonName"
+            android:hint=" If you any compliment or suggestion!" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#08a410"
+        android:text="Button" />
+
+
+</LinearLayout>

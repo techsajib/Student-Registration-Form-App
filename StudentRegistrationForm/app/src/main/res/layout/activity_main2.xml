@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EEEEEE"
+    android:padding="5dp"
+    tools:context="com.techsajib.studentregistrationform.Main2Activity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:textColor="@color/colorAccent"
+        android:text="Student Information" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/fathernameText"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/addressText"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/instituteNameText"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/departmentNameText"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/emailText"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/phoneText"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/bloodGroupText"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/complainText"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/backButton"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="back" />
+
+
+</LinearLayout>
